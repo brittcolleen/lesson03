@@ -1,0 +1,40 @@
+/* Color Palette*/
+
+
+/*Global Styles
+--------------------------------------------------*/
+body {
+    color: darkblue
+}
+img {
+    width: 300px;
+}
+
+/*Profile
+--------------------------------------------------*/
+header {
+    background: papayawhip;
+}
+
+/*Projects
+--------------------------------------------------*/
+.projects {
+    background: lightcyan;
+}
+
+/*Work Experience
+--------------------------------------------------*/
+.experience {
+    background: lightblue;
+}
+
+/*Education
+--------------------------------------------------*/
+
+/*Contact Info
+--------------------------------------------------*/
+
+footer {
+    background: lightcoral;
+    color: black;
+}
