@@ -1,13 +1,41 @@
+/* the box model fix changes how the browser interprets the box model*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/*-------------------------------------------------*/
+
+
 /* Color Palette*/
 
 
 /*Global Styles
 --------------------------------------------------*/
 body {
-    color: darkblue
 }
 img {
     width: 300px;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    margin: 0;
+    font-size: 30px;
+}
+h1, h2 {
+    font-family:'Lobster', cursive; 
+    margin: 0;
+}
+.content-wrap {
+   width: 800px; 
+   margin: 0 auto;
+   padding: 60px 0;
 }
 
 /*Profile
@@ -20,6 +48,31 @@ header {
 --------------------------------------------------*/
 .projects {
     background: lightcyan;
+}
+.projects a {
+    color: goldenrod;
+
+}
+/*
+.projects .btn {
+    color: black;
+    background: goldenrod;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}*/
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed goldenrod;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
 }
 
 /*Work Experience
